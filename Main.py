@@ -17,7 +17,7 @@ def Main():
         manager = CustomerManager(user)
 
         currentaccount = manager.process(choice)
-        context = Context("C:\\Users\\Halil\\OneDrive\\Masaüstü\\Python With HAT\\kullanıcılar.txt")
+        context = Context("users.txt")
         context.uptadeContext(currentaccount)
 
        
